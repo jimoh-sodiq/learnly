@@ -1,0 +1,143 @@
+@layer components {
+  /* Headings */
+  .jtext-heading1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .jtext-heading2 {
+    font-size: 3.25rem;
+    font-weight: bold;
+  }
+
+  .jtext-heading3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .jtext-heading4 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .jtext-heading5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .jtext-heading6 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 23px;
+  }
+
+  /* Paragraphs */
+  .jtext-paragraph1-bold {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .jtext-paragraph1-semibold {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .jtext-paragraph1-medium {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .jtext-paragraph1-regular {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .jtext-paragraph2-bold {
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .jtext-paragraph2-semibold {
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .jtext-paragraph2-medium {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  .jtext-paragraph2-regular {
+    font-size: 0.875rem;
+    font-weight: normal;
+  }
+
+  /* Captions 1 */
+  .jtext-caption1-regular {
+    font-size: 0.8125rem;
+    font-weight: normal;
+    line-height: normal;
+  }
+
+  .jtext-caption1-medium {
+    font-size: 0.8125rem;
+    font-weight: 500;
+  }
+
+  .jtext-caption1-semibold {
+    font-size: 0.8125rem;
+    font-weight: 600;
+  }
+
+  .jtext-caption1-bold {
+    font-size: 0.8125rem;
+    font-weight: 700;
+  }
+
+  /* Captions 2 */
+  .jtext-caption2-regular {
+    font-size: 0.75rem;
+    font-weight: normal;
+    line-height: normal;
+  }
+
+  .jtext-caption2-medium {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  .jtext-caption2-bold {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  /* Labels */
+  .jfont-label-normal {
+    font-size: 0.8125rem;
+    font-weight: normal;
+    line-height: normal;
+  }
+
+  .jfont-label-medium {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .jfont-label-bold {
+    font-size: 0.8125rem;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .jfont-label-semibold {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
