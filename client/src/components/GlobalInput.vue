@@ -17,8 +17,8 @@ interface Prop {
   error?: boolean
   errorText?: string
   disabled?: boolean
-  max?: string
-  min?: string
+  max?: number
+  min?: number
   autofocus?: boolean
   debounceTime?: number
   maxWaitTime?: number
@@ -33,7 +33,6 @@ const props = withDefaults(defineProps<Prop>(), {
   error: false,
   errorText: '',
   disabled: false,
-  max: '',
   autofocus: false,
   debounceTime: 0,
   maxWaitTime: 5000
