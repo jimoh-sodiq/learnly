@@ -31,11 +31,13 @@ export function attachCookiesToResponse(options: {
     secure: process.env.NODE_ENV == "production",
     expires: new Date(Date.now() + oneDay),
     signed: true,
+    sameSite: "none"
   });
   res.cookie("refreshToken", refreshTokenJWT, {
     httpOnly: process.env.NODE_ENV == "production",
     secure: process.env.NODE_ENV == "production",
     expires: new Date(Date.now() + oneMonth),
     signed: true,
+    sameSite: "none"
   });
 }

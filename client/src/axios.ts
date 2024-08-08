@@ -4,12 +4,17 @@ import { useAppStore } from './store/appStore'
 
 const axiosInstance: AxiosInstance = axios.create({
   baseURL: import.meta.env.VITE_BASE_URL as string,
-  withCredentials: true 
+  withCredentials: true ,
+  headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'},
 })
+
 axiosInstance.defaults.headers.post['Content-Type'] = 'application/json';
+axiosInstance.defaults.withCredentials = true
 
 axiosInstance.interceptors.request.use(
   (config) => {
+    
+
     return config
   },
   (error) => Promise.reject(error)
