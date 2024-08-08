@@ -6,7 +6,7 @@ const axiosInstance: AxiosInstance = axios.create({
   baseURL: import.meta.env.VITE_BASE_URL as string,
   withCredentials: true 
 })
-axiosInstance.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+axiosInstance.defaults.headers.post['Content-Type'] = 'application/json';
 
 axiosInstance.interceptors.request.use(
   (config) => {
